@@ -1,11 +1,12 @@
 package mmnrc;
 
 /**
- * <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * Language Catalog
  * 
- * @author Chan Mrate Ko Ko
+ * @author <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * 
  * @version 1.0
- *
+ * 
  */
 public class LanguageCatalog {
 

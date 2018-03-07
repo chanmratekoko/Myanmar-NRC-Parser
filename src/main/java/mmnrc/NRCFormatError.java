@@ -1,8 +1,10 @@
 package mmnrc;
 
 /**
- * <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
- * @author Chan Mrate Ko Ko
+ * NRC Format Error
+ * 
+ * @author <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * 
  * @version 1.0
  *
  */

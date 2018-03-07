@@ -1,8 +1,10 @@
 package mmnrc;
 
 /**
- * <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
- * @author Chan Mrate Ko Ko
+ * Language Utility
+ * 
+ * @author <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * 
  * @version 1.0
  *
  */
@@ -26,6 +28,7 @@ public class LanguageUtil {
 	}
 
 	public static String getEngNumber(String myanmarNumber, boolean skipOther) {
+		
 		StringBuffer result = new StringBuffer();
 
 		for (char c : myanmarNumber.toCharArray()) {
@@ -42,6 +45,7 @@ public class LanguageUtil {
 	}
 	
 	public static String getMyanmarNumber(String englishNumber, boolean skipOther) {
+		
 		StringBuffer result = new StringBuffer();
 
 		for (char c : englishNumber.toCharArray()) {
@@ -56,7 +60,6 @@ public class LanguageUtil {
 		}
 
 		return result.toString();
-	}
-	
+	}	
 	
 }

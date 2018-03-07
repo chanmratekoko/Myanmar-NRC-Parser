@@ -1,8 +1,9 @@
 package mmnrc;
 
 /**
- * <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
- * @author Chan Mrate Ko Ko
+ * 
+ * @author <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * 
  * @version 1.0
  *
  */
@@ -22,10 +23,10 @@ public enum NRCParserEnum {
 			if (nrcFormatterEnum.getCode().equalsIgnoreCase(code)) {
 				return nrcFormatterEnum;
 			}
-		}		
+		}
 		throw new IllegalArgumentException("The code is unknown");
 	}
-	
+
 	public String getCode(){
 		return code;
 	}

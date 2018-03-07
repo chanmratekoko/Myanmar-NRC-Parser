@@ -1,9 +1,10 @@
 package mmnrc;
 
 /**
- * <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * National Registration Card
  * 
- * @author Chan Mrate Ko Ko
+ * @author <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * 
  * @version 1.0
  *
  */

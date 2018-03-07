@@ -1,8 +1,9 @@
 package mmnrc;
 
 /**
- * <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
- * @author Chan Mrate Ko Ko
+ * 
+ * @author <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * 
  * @version 1.0
  *
  */
@@ -29,13 +30,16 @@ public abstract class NRCParser {
 			naing = nrcArr[2];
 			registerNo = nrcArr[3];
 		} else {
-			throw new NRCFormatException(NRCFormatError.INVALID_NRC);
+			throw new NRCFormatException(NRCFormatError.INVALID_NRC, "NRC format is not invalid!!");
 		}
-
+		
+		int processState = processState(state);		
+		String processDistrict = processDistrict(district);
 		validateNaingFormat(naing);
-
-		return new NRC(processState(state), processDistrict(district), processRegisterNo(registerNo));
-	}	
+		int processRegisterNo = processRegisterNo(registerNo);
+	
+		return new NRC(processState, processDistrict, processRegisterNo);
+	}
 
 	abstract protected int processState(String state) throws NRCFormatException;
 	

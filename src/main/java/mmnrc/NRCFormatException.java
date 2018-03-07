@@ -1,19 +1,25 @@
 package mmnrc;
 
 /**
- * <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
- * @author Chan Mrate Ko Ko
+ * 
+ * @author <a href="mailto:chanmratekoko.dev@gmail.com">Chan Mrate Ko Ko</a>
+ * 
  * @version 1.0
  *
  */
 public class NRCFormatException extends Exception {
 
 	private static final long serialVersionUID = 1L;
-	
-	private NRCFormatError error;	
+
+	private NRCFormatError error;
 
 	public NRCFormatException() {
 		super();
+	}
+
+	public NRCFormatException(NRCFormatError error, String message) {
+		super(message);
+		this.error = error;
 	}
 
 	public NRCFormatException(NRCFormatError error) {
